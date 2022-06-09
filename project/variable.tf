@@ -3,3 +3,8 @@ variable "cidr_block" {
   type        = string
   default     = ""
 }
+variable "region" {
+  description = "Please provide a region name"
+  type        = string
+  default     = ""
+}
